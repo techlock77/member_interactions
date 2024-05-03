@@ -5,6 +5,9 @@
 -- oneway_round ='R' -> Round Trip
 -- Write a query to identify the busiest route.
 --  Note: LAX -> JFK is different route from JFK -> LAX
+
+-- Database: Snowflake
+
 create or replace table flights (booking_date date, pnr varchar(30), origin  varchar(30), destination  varchar(30), oneway_round  varchar(30), ticket_count int)
 ;
 
